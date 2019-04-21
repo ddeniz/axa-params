@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<h1>{{count}}</h1>
-		<v-btn @click="increment" color="primary" class="mx-3">Add 1</v-btn>
-    <v-btn @click="decrement" color="primary" class="mx-3">Add 2</v-btn>
+		<h1 class="mx-3">{{count}}</h1>
+		<v-btn @click="increment" color="primary" class="mx-3">increment</v-btn>
+        <v-btn @click="decrement" color="primary" class="mx-3">decrement</v-btn>
 
 	</div>
 </template>

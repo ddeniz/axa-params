@@ -7,17 +7,17 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'landing-page',
+      name: '',
       component: require('@/pages/LandingPage').default,
     },
     {
       path: '/vuetfiy',
-      name: 'vuetfiy',
+      name: 'Vuetfiy Example',
       component: require('@/pages/Vuetfiy').default,
     },
     {
       path: '/vuex',
-      name: 'vuex',
+      name: 'Vuex Example',
       component: require('@/pages/Vuex').default,
     },
     {

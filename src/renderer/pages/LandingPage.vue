@@ -23,10 +23,10 @@
          Vuex Example 
         </router-link>
           <br><br>
-          <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Dokumantasyon</button><br><br>
+          <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Documentation</button><br><br>
         </div>
         <div class="doc">
-          <div class="title alt">Diger Dokumantasyonlar</div>
+          <div class="title alt">Other Documentation</div>
           <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
           <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button>
         </div>
@@ -67,9 +67,7 @@
         rgba(255, 255, 255, 1) 40%,
         rgba(229, 229, 229, .9) 100%
       );
-    height: 100vh;
-    padding: 60px 80px;
-    width: 100vw;
+
   }
 
   #logo {
