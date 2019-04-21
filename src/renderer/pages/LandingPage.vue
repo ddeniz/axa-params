@@ -11,15 +11,16 @@
 
       <div class="right-side">
         <div class="doc">
-          <div class="title">Neler Kullaniyoruz</div>
+          <div class="title"> Welcome to New Project</div>
           <p>
-            Electron Vue  Vue-Router Vuex Vuetfy Axios Vue-Chartist  i18 ve daha fazlasi...
+            Electron Vue  Vue-Router Vuex Vuetfy Axios Vue-Chartist  i18 and more...
           </p>
-         <p>
-            Ornek kullanimlar icin test page gidin.
-          </p>
-        <router-link tag="button" to="/home">
-          Test Page
+        <router-link tag="button" to="/vuetfiy">
+         Vuetfy Example
+        </router-link>
+          <br><br>
+        <router-link tag="button" to="/vuex">
+         Vuex Example 
         </router-link>
           <br><br>
           <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Dokumantasyon</button><br><br>
@@ -35,7 +36,7 @@
 </template>
 
 <script>
-  import SystemInformation from './LandingPage/SystemInformation';
+  import SystemInformation from './../components/LandingPage/SystemInformation';
 
   export default {
     name: 'landing-page',

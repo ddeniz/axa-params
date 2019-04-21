@@ -8,12 +8,17 @@ export default new Router({
     {
       path: '/',
       name: 'landing-page',
-      component: require('@/components/LandingPage').default,
+      component: require('@/pages/LandingPage').default,
     },
     {
-      path: '/home',
-      name: 'home',
-      component: require('@/pages/Home').default,
+      path: '/vuetfiy',
+      name: 'vuetfiy',
+      component: require('@/pages/Vuetfiy').default,
+    },
+    {
+      path: '/vuex',
+      name: 'vuex',
+      component: require('@/pages/Vuex').default,
     },
     {
       path: '*',

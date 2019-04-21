@@ -1,22 +1,24 @@
 const state = {
-  main: 0,
-};
-
-const mutations = {
-  DECREMENT_MAIN_COUNTER(state) {
-    state.main -= 1;
-  },
-  INCREMENT_MAIN_COUNTER(state) {
-    state.main += 1;
-  },
-};
+  count: 0
+}
 
 const actions = {
-  someAsyncTask({ commit }) {
-    // do something async
-    commit('INCREMENT_MAIN_COUNTER');
+  increment(store) {
+    store.commit("increment")
   },
-};
+  decrement(store) {
+    store.commit("decrement")
+  }
+}
+
+const mutations = {
+  increment(state) {
+    state.count++
+  },
+  decrement(state) {
+    state.count--
+  }
+}
 
 export default {
   state,

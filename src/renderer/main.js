@@ -7,11 +7,9 @@ import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import theme from './theme';
 import i18n from '../i18n/index';
-import { sync } from 'vuex-router-sync';
 import 'chartist/dist/chartist.min.css';
 
-// Sync store with router
-sync(store, router);
+
 
 Vue.config.productionTip = false;
 
